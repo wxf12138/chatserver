@@ -11,6 +11,11 @@ using namespace muduo::net;
 
 #include "json.hpp"
 #include "public.hpp"
+#include "user.hpp"
+#include "usermodel.hpp"
+#include "offlinemessagemodel.hpp"
+#include "friendmodel.hpp"
+
 using json = nlohmann::json;
 
 // 表示处理消息的事件回调方法类型   业务handler=》conn  js  time
@@ -48,15 +53,20 @@ public:
     void handleRedisSubscribeMessage(int, string);
 
 private:
-    ChatService();
+    ChatService(); // 实现单例模式
 
     // 存储消息id和其对应的业务处理方法
     unordered_map<int, MsgHandler> _msgHandlerMap;
+
+    // 数据库操作对象
+    UserModel _userModel;
+    OfflineMsgModel _offlineMsgModel;
+    FriendModel _friendModel;
     // 存储在线用户的通信连接
     unordered_map<int, TcpConnectionPtr> _userConnMap;
     // 定义互斥锁，保证_userConnMap的线程安全
     mutex _connMutex;
-
+    
 };
 
 #endif
