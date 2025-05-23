@@ -8,12 +8,6 @@
 
 ../include/public.hpp
 
-../include/server/chatserver.hpp
-muduo/net/TcpServer.h
--
-muduo/net/EventLoop.h
--
-
 ../include/server/chatservice.hpp
 muduo/net/TcpConnection.h
 -
@@ -410,16 +404,6 @@ limits
 type_traits
 -
 
-/home/wxf/chatserver/chatserver/src/server/chatserver.cc
-chatserver.hpp
-/home/wxf/chatserver/chatserver/src/server/chatserver.hpp
-json.hpp
-/home/wxf/chatserver/chatserver/src/server/json.hpp
-chatservice.hpp
-/home/wxf/chatserver/chatserver/src/server/chatservice.hpp
-functional
--
-
 /home/wxf/chatserver/chatserver/src/server/chatservice.cc
 chatservice.hpp
 /home/wxf/chatserver/chatserver/src/server/chatservice.hpp
@@ -431,40 +415,6 @@ vector
 -
 group.hpp
 -
-
-/home/wxf/chatserver/chatserver/src/server/db/db.cc
-db.h
-/home/wxf/chatserver/chatserver/src/server/db/db.h
-muduo/base/Logging.h
--
-
-/home/wxf/chatserver/chatserver/src/server/main.cc
-chatserver.hpp
-/home/wxf/chatserver/chatserver/src/server/chatserver.hpp
-chatservice.hpp
-/home/wxf/chatserver/chatserver/src/server/chatservice.hpp
-iostream
--
-signal.h
--
-
-/home/wxf/chatserver/chatserver/src/server/model/friendmodel.cc
-friendmodel.hpp
-/home/wxf/chatserver/chatserver/src/server/model/friendmodel.hpp
-db.h
-/home/wxf/chatserver/chatserver/src/server/model/db.h
-
-/home/wxf/chatserver/chatserver/src/server/model/groupmodel.cpp
-groupmodel.hpp
-/home/wxf/chatserver/chatserver/src/server/model/groupmodel.hpp
-db.h
-/home/wxf/chatserver/chatserver/src/server/model/db.h
-
-/home/wxf/chatserver/chatserver/src/server/model/offlinemessagemodel.cc
-offlinemessagemodel.hpp
-/home/wxf/chatserver/chatserver/src/server/model/offlinemessagemodel.hpp
-db.h
-/home/wxf/chatserver/chatserver/src/server/model/db.h
 
 /home/wxf/chatserver/chatserver/src/server/model/usermodel.cc
 usermodel.hpp
