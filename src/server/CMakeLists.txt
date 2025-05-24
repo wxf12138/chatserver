@@ -10,4 +10,4 @@ add_executable(ChatServer ${SRC_LIST} ${DB_LIST} ${MODEL_LIST})
 target_link_libraries(ChatServer muduo_net muduo_base mysqlclient pthread)
 
 # 设置可执行文件名称
-set_target_properties(ChatServer PROPERTIES OUTPUT_NAME "server")
+#set_target_properties(ChatServer PROPERTIES OUTPUT_NAME "server")
