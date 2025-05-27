@@ -4,14 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wxf/chatserver/chatserver/src/server/chatserver.cc" "/home/wxf/chatserver/chatserver/build/src/server/CMakeFiles/ChatServer.dir/chatserver.cc.o"
-  "/home/wxf/chatserver/chatserver/src/server/chatservice.cc" "/home/wxf/chatserver/chatserver/build/src/server/CMakeFiles/ChatServer.dir/chatservice.cc.o"
-  "/home/wxf/chatserver/chatserver/src/server/db/db.cc" "/home/wxf/chatserver/chatserver/build/src/server/CMakeFiles/ChatServer.dir/db/db.cc.o"
-  "/home/wxf/chatserver/chatserver/src/server/main.cc" "/home/wxf/chatserver/chatserver/build/src/server/CMakeFiles/ChatServer.dir/main.cc.o"
-  "/home/wxf/chatserver/chatserver/src/server/model/friendmodel.cc" "/home/wxf/chatserver/chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/friendmodel.cc.o"
+  "/home/wxf/chatserver/chatserver/src/server/chatserver.cpp" "/home/wxf/chatserver/chatserver/build/src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o"
+  "/home/wxf/chatserver/chatserver/src/server/chatservice.cpp" "/home/wxf/chatserver/chatserver/build/src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o"
+  "/home/wxf/chatserver/chatserver/src/server/db/db.cpp" "/home/wxf/chatserver/chatserver/build/src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o"
+  "/home/wxf/chatserver/chatserver/src/server/main.cpp" "/home/wxf/chatserver/chatserver/build/src/server/CMakeFiles/ChatServer.dir/main.cpp.o"
+  "/home/wxf/chatserver/chatserver/src/server/model/friendmoel.cpp" "/home/wxf/chatserver/chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/friendmoel.cpp.o"
   "/home/wxf/chatserver/chatserver/src/server/model/groupmodel.cpp" "/home/wxf/chatserver/chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o"
-  "/home/wxf/chatserver/chatserver/src/server/model/offlinemessagemodel.cc" "/home/wxf/chatserver/chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cc.o"
-  "/home/wxf/chatserver/chatserver/src/server/model/usermodel.cc" "/home/wxf/chatserver/chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/usermodel.cc.o"
+  "/home/wxf/chatserver/chatserver/src/server/model/offlinemessagemodel.cpp" "/home/wxf/chatserver/chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o"
+  "/home/wxf/chatserver/chatserver/src/server/model/usermodel.cpp" "/home/wxf/chatserver/chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o"
+  "/home/wxf/chatserver/chatserver/src/server/redis/redis.cpp" "/home/wxf/chatserver/chatserver/build/src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,6 +22,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include/server"
   "../include/server/db"
   "../include/server/model"
+  "../include/server/redis"
   "../thirdparty"
   )
 

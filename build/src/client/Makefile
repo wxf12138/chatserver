@@ -125,32 +125,32 @@ ChatClient/fast:
 	cd /home/wxf/chatserver/chatserver/build && $(MAKE) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/build
 .PHONY : ChatClient/fast
 
-main.o: main.cc.o
+main.o: main.cpp.o
 
 .PHONY : main.o
 
 # target to build an object file
-main.cc.o:
-	cd /home/wxf/chatserver/chatserver/build && $(MAKE) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/main.cc.o
-.PHONY : main.cc.o
+main.cpp.o:
+	cd /home/wxf/chatserver/chatserver/build && $(MAKE) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-main.i: main.cc.i
+main.i: main.cpp.i
 
 .PHONY : main.i
 
 # target to preprocess a source file
-main.cc.i:
-	cd /home/wxf/chatserver/chatserver/build && $(MAKE) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/main.cc.i
-.PHONY : main.cc.i
+main.cpp.i:
+	cd /home/wxf/chatserver/chatserver/build && $(MAKE) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-main.s: main.cc.s
+main.s: main.cpp.s
 
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.cc.s:
-	cd /home/wxf/chatserver/chatserver/build && $(MAKE) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/main.cc.s
-.PHONY : main.cc.s
+main.cpp.s:
+	cd /home/wxf/chatserver/chatserver/build && $(MAKE) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:

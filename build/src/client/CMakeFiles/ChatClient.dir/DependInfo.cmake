@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wxf/chatserver/chatserver/src/client/main.cc" "/home/wxf/chatserver/chatserver/build/src/client/CMakeFiles/ChatClient.dir/main.cc.o"
+  "/home/wxf/chatserver/chatserver/src/client/main.cpp" "/home/wxf/chatserver/chatserver/build/src/client/CMakeFiles/ChatClient.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -14,6 +14,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include/server"
   "../include/server/db"
   "../include/server/model"
+  "../include/server/redis"
   "../thirdparty"
   )
 

@@ -57,27 +57,27 @@ include src/client/CMakeFiles/ChatClient.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/client/CMakeFiles/ChatClient.dir/flags.make
 
-src/client/CMakeFiles/ChatClient.dir/main.cc.o: src/client/CMakeFiles/ChatClient.dir/flags.make
-src/client/CMakeFiles/ChatClient.dir/main.cc.o: ../src/client/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wxf/chatserver/chatserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/client/CMakeFiles/ChatClient.dir/main.cc.o"
-	cd /home/wxf/chatserver/chatserver/build/src/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ChatClient.dir/main.cc.o -c /home/wxf/chatserver/chatserver/src/client/main.cc
+src/client/CMakeFiles/ChatClient.dir/main.cpp.o: src/client/CMakeFiles/ChatClient.dir/flags.make
+src/client/CMakeFiles/ChatClient.dir/main.cpp.o: ../src/client/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wxf/chatserver/chatserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/client/CMakeFiles/ChatClient.dir/main.cpp.o"
+	cd /home/wxf/chatserver/chatserver/build/src/client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ChatClient.dir/main.cpp.o -c /home/wxf/chatserver/chatserver/src/client/main.cpp
 
-src/client/CMakeFiles/ChatClient.dir/main.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatClient.dir/main.cc.i"
-	cd /home/wxf/chatserver/chatserver/build/src/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wxf/chatserver/chatserver/src/client/main.cc > CMakeFiles/ChatClient.dir/main.cc.i
+src/client/CMakeFiles/ChatClient.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatClient.dir/main.cpp.i"
+	cd /home/wxf/chatserver/chatserver/build/src/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wxf/chatserver/chatserver/src/client/main.cpp > CMakeFiles/ChatClient.dir/main.cpp.i
 
-src/client/CMakeFiles/ChatClient.dir/main.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatClient.dir/main.cc.s"
-	cd /home/wxf/chatserver/chatserver/build/src/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wxf/chatserver/chatserver/src/client/main.cc -o CMakeFiles/ChatClient.dir/main.cc.s
+src/client/CMakeFiles/ChatClient.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatClient.dir/main.cpp.s"
+	cd /home/wxf/chatserver/chatserver/build/src/client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wxf/chatserver/chatserver/src/client/main.cpp -o CMakeFiles/ChatClient.dir/main.cpp.s
 
 # Object files for target ChatClient
 ChatClient_OBJECTS = \
-"CMakeFiles/ChatClient.dir/main.cc.o"
+"CMakeFiles/ChatClient.dir/main.cpp.o"
 
 # External object files for target ChatClient
 ChatClient_EXTERNAL_OBJECTS =
 
-../bin/ChatClient: src/client/CMakeFiles/ChatClient.dir/main.cc.o
+../bin/ChatClient: src/client/CMakeFiles/ChatClient.dir/main.cpp.o
 ../bin/ChatClient: src/client/CMakeFiles/ChatClient.dir/build.make
 ../bin/ChatClient: src/client/CMakeFiles/ChatClient.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wxf/chatserver/chatserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../bin/ChatClient"

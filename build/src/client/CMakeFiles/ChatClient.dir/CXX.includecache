@@ -354,7 +354,7 @@ limits
 type_traits
 -
 
-/home/wxf/chatserver/chatserver/src/client/main.cc
+/home/wxf/chatserver/chatserver/src/client/main.cpp
 json.hpp
 /home/wxf/chatserver/chatserver/src/client/json.hpp
 iostream
