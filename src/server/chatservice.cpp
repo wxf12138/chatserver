@@ -2,6 +2,7 @@
 #include "public.hpp"
 #include <muduo/base/Logging.h>
 #include <vector>
+#include <iostream>
 using namespace std;
 using namespace muduo;
 
@@ -344,6 +345,8 @@ void ChatService::groupChat(const TcpConnectionPtr &conn, json &js, Timestamp ti
 // 从redis消息队列中获取订阅的消息
 void ChatService::handleRedisSubscribeMessage(int userid, string msg)
 {
+    std::cout << "收到Redis消息 userid=" << userid << " msg=[" << msg << "]" << endl;  
+
     lock_guard<mutex> lock(_connMutex);
     auto it = _userConnMap.find(userid);
     if (it != _userConnMap.end())

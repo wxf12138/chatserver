@@ -36,12 +36,6 @@ offlinemessagemodel.hpp
 json.hpp
 ../include/server/json.hpp
 
-../include/server/db/db.h
-mysql/mysql.h
--
-string
--
-
 ../include/server/model/friendmodel.hpp
 user.hpp
 ../include/server/model/user.hpp
@@ -443,11 +437,7 @@ muduo/base/Logging.h
 -
 vector
 -
-
-/home/wxf/chatserver/chatserver/src/server/db/db.cpp
-db.h
-/home/wxf/chatserver/chatserver/src/server/db/db.h
-muduo/base/Logging.h
+iostream
 -
 
 /home/wxf/chatserver/chatserver/src/server/main.cpp
@@ -458,32 +448,6 @@ chatservice.hpp
 iostream
 -
 signal.h
--
-
-/home/wxf/chatserver/chatserver/src/server/model/friendmoel.cpp
-friendmodel.hpp
-/home/wxf/chatserver/chatserver/src/server/model/friendmodel.hpp
-db.h
-/home/wxf/chatserver/chatserver/src/server/model/db.h
-
-/home/wxf/chatserver/chatserver/src/server/model/groupmodel.cpp
-groupmodel.hpp
-/home/wxf/chatserver/chatserver/src/server/model/groupmodel.hpp
-db.h
-/home/wxf/chatserver/chatserver/src/server/model/db.h
-
-/home/wxf/chatserver/chatserver/src/server/model/offlinemessagemodel.cpp
-offlinemessagemodel.hpp
-/home/wxf/chatserver/chatserver/src/server/model/offlinemessagemodel.hpp
-db.h
-/home/wxf/chatserver/chatserver/src/server/model/db.h
-
-/home/wxf/chatserver/chatserver/src/server/model/usermodel.cpp
-usermodel.hpp
-/home/wxf/chatserver/chatserver/src/server/model/usermodel.hpp
-db.h
-/home/wxf/chatserver/chatserver/src/server/model/db.h
-iostream
 -
 
 /home/wxf/chatserver/chatserver/src/server/redis/redis.cpp

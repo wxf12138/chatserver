@@ -19,8 +19,11 @@ public:
     // 连接redis服务器 
     bool connect();
 
+    // // 向redis指定的通道channel发布消息
+    // bool publish(int channel, const string &message);
+
     // 向redis指定的通道channel发布消息
-    bool publish(int channel, string message);
+   bool publish(int channel, string message);
 
     // 向redis指定的通道subscribe订阅消息
     bool subscribe(int channel);
@@ -39,7 +42,7 @@ private:
     redisContext *_publish_context;
 
     // hiredis同步上下文对象，负责subscribe消息
-    redisContext *_subcribe_context;
+    redisContext *_subscribe_context;
 
     // 回调操作，收到订阅的消息，给service层上报
     function<void(int, string)> _notify_message_handler;
